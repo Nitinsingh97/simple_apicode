@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script>
+               function fact() {
+                   var num , fac=1;
+                 num=Number(document.getElementById("number").value); 
+                 funcion f (num) { 
+                 if(num<=1)
+                 fac= 1;
+                 else
+                 fac = f(num-1)*n; }
+                 document.getElementById('fact').value= fac ;
+               }
+        </script>
+     </head>
+     <body>
+         Number : <input type='text' id='number' name='number' ></input><br>
+         Factorial : <input type='text' id='fact' name='fact' value=''></input><br>
+         <input type ='submit' name='submit' onclick='fact()'/>
+    </body>   
+ </html>
